@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Button Styling</title>
+
+<style>
+
+body{
+font-family:Arial;
+text-align:center;
+padding:40px;
+}
+
+/* basic button */
+
+.btn{
+padding:12px 25px;
+border:none;
+margin:10px;
+cursor:pointer;
+border-radius:5px;
+transition:0.3s;
+}
+
+/* color buttons */
+
+.red{
+background:red;
+color:white;
+}
+
+.green{
+background:green;
+color:white;
+}
+
+.blue{
+background:blue;
+color:white;
+}
+
+/* hover effect */
+
+.btn:hover{
+transform:scale(1.1);
+box-shadow:0px 5px 10px gray;
+}
+
+/* disabled */
+
+.disabled{
+background:gray;
+cursor:not-allowed;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Button Styling Collection</h1>
+
+<button class="btn red">Red Button</button>
+<button class="btn green">Green Button</button>
+<button class="btn blue">Blue Button</button>
+<button class="btn disabled" disabled>Disabled Button</button>
+
+</body>
+</html>

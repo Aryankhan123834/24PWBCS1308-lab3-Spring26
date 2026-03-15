@@ -1,0 +1,38 @@
+img{
+width:200px;
+border-radius:10px;
+transition:0.4s;
+}
+
+/* Hover image effect */
+
+img:hover{
+transform:scale(1.1) rotate(3deg);
+filter:brightness(110%);
+}
+
+/* Pseudo elements */
+
+h2::before{
+content:"★ ";
+color:orange;
+}
+
+h2::after{
+content:" ★";
+color:orange;
+}
+
+/* Pseudo classes */
+
+a:hover{
+color:yellow;
+}
+
+li:first-child{
+font-weight:bold;
+}
+
+li:last-child{
+color:orange;
+}

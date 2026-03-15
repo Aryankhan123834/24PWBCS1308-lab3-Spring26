@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Styling</title>
+
+<style>
+
+body{
+font-family:Arial;
+padding:40px;
+}
+
+form{
+width:300px;
+margin:auto;
+}
+
+input,select{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+/* focus */
+
+input:focus{
+border-color:blue;
+outline:none;
+}
+
+/* button */
+
+button{
+background:green;
+color:white;
+padding:10px;
+border:none;
+width:100%;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:darkgreen;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Registration Form</h1>
+
+<form>
+
+<input type="text" placeholder="Name">
+
+<input type="email" placeholder="Email">
+
+<select>
+<option>Choose Course</option>
+<option>Web Development</option>
+<option>Database</option>
+</select>
+
+<button>Submit</button>
+
+</form>
+
+</body>
+</html>
